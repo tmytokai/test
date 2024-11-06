@@ -1,4 +1,4 @@
 def hoge():
-    print('hoge')
+    print('ほげ')
 
 __export__ = ["hoge", ]
