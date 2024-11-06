@@ -1,1 +1,2 @@
-print('hoge')
+def hoge():
+    print('hoge')
