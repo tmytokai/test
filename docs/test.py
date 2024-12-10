@@ -1,4 +1,4 @@
-from pyscript import window
+from pyscript import sync
 
 def hoge():
     print('ふが')
