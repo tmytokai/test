@@ -1,9 +1,8 @@
 from pyscript import sync
 
-def hoge():
+def hoge(aaa):
     print('ふが')
-    print(sync.aaa)
-    sync.bbb = 'hoge'
+    sync.aaa = 'hoge'
     
 
 __export__ = ["hoge", ]
