@@ -1,7 +1,9 @@
 from pyscript import window
 
-def hoge(a):
+def hoge():
     print('ふが')
-    print(a)
+    print(sync.aaa)
+    sync.bbb = 'hoge'
+    
 
 __export__ = ["hoge", ]
