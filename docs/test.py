@@ -1,7 +1,7 @@
 from pyscript import window
 
 def hoge():
-    print('ほげ')
+    print('ふが')
     print(www.aaa)
 
 __export__ = ["hoge", ]
