@@ -5,5 +5,9 @@ def hoge(x):
     print(x);
     return 'piyo';
     
+def fft(x):
+    for i in x:
+        print(i);
+    return 'piyo';
 
 __export__ = ["hoge", ]
