@@ -13,7 +13,7 @@ def sin(param):
     w = 2*np.pi*float(param[1])
     t = float(param[2])
     psi = 2*np.pi*float(param[3])/180
-    return A*np.sin( w*t + psi )
+    return [A*np.sin( w*t + psi )]
 
 def fft(x):
     return abs(np.fft.fft(x)).tolist()
