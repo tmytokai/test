@@ -10,4 +10,4 @@ def fft(x):
         print(i);
     return 'piyo';
 
-__export__ = ["hoge", ]
+__export__ = ['hoge', 'fft', ]
