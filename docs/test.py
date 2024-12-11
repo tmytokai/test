@@ -10,6 +10,6 @@ def fft(x):
         print(i);
     y = np.fft.fft(x)
     print(y)
-    return 'piyo';
+    return abs(y)
 
 __export__ = ['hoge', 'fft', ]
