@@ -5,11 +5,10 @@ def hoge():
     print('ふが')
     print(window.aaa);
     
-def fft(x):
+def fft(x,y):
     for i in x:
         print(i);
-    y = np.fft.fft(x)
+    y = abs(np.fft.fft(x))
     print(y)
-    return abs(y)
 
 __export__ = ['hoge', 'fft', ]
