@@ -2,7 +2,7 @@ from pyscript import window
 import numpy as np
 
 def hoge():
-    print('ふが')
+    print('ほげ')
     print(window.aaa);
     
 def f(param):
