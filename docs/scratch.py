@@ -9,4 +9,4 @@ def g(N):
 def powerspectrum(x):
     return (np.abs(np.fft.fft(x))**2).tolist()
 
-__export__ = ['f', 'powerspectrum']
+__export__ = ['f', 'g', 'powerspectrum']
